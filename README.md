@@ -138,6 +138,11 @@ docker compose up -d frontend
 
 ---
 
+## !Preview
+<img width="1884" height="900" alt="image" src="https://github.com/user-attachments/assets/83db378b-a5c1-44c0-ae03-64faf11f746f" />
+
+---
+
 ## 📂 Project Structure
 
 ```text
