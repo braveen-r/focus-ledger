@@ -1,0 +1,5 @@
+record_id,billing_period,usage_date,service_name,account_team,cost,currency,tags
+REC-001,2026-10,2026-10-01,AmazonEC2,Backend,8000.00,INR,{"env":"prod"}
+REC-002,2026-10,2026-10-01,AmazonS3,Backend,2000.00,INR,{"env":"prod"}
+REC-003,2026-10,2026-10-01,AmazonRDS,Database,10000.00,INR,{}
+REC-004,2026-10,2026-10-01,CloudFront,Frontend,5000.00,INR,{"env":"prod"}
