@@ -72,6 +72,38 @@ npm run dev
 
 ---
 
+## 🚀 Running with Docker (Production Mode)
+
+To run the full stack (FastAPI backend, DuckDB persistent store, and Nginx-served React frontend) using Docker containers:
+
+1. **Clone the repository:**
+```bash
+git clone [https://github.com/braveen-r/focus-ledger.git](https://github.com/braveen-r/focus-ledger.git)
+cd focus-ledger
+
+```
+
+2. **Build and start the services using Docker Compose:**
+```bash
+docker compose up -d --build
+
+```
+
+
+3. **If updating or rebuilding just the frontend with Tailwind v4 PostCSS integration:**
+```bash
+docker compose build --no-cache frontend
+docker compose up -d frontend
+
+```
+
+
+4. **Access the application:**
+* Frontend UI: `http://localhost:8080`
+* FastAPI Backend API & Docs: `http://localhost:8001/docs`
+
+---
+
 ## 🏗️ System Architecture
 
 ```text
