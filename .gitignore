@@ -10,3 +10,9 @@ frontend/dist/
 
 # OS
 .DS_Store
+
+# Database & local state
+*.duckdb
+*.duckdb.wal
+.pytest_cache/
+__pycache__/
